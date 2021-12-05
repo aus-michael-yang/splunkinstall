@@ -11,7 +11,7 @@
  sudo tar -xvzf $INSTALL_FILE
  sudo rm -rf $INSTALL_FILE
 
- sudo useradd -m -r archStudent
+ ##sudo useradd -m -r archStudent
 
  sudo /opt/splunkforwarder/bin/splunk start --accept-license --answer-yes --auto-ports --no-prompt --seed-passwd $PASSWORD
  sudo /opt/splunkforwarder/bin/splunk stop -auth admin:$PASSWORD
