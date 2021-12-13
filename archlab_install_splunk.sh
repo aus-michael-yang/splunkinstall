@@ -12,10 +12,10 @@
  sudo tar -xvzf $INSTALL_FILE
  sudo rm -rf $INSTALL_FILE
 
- ##sudo useradd -m -r archStudent
+ sudo useradd -m -r splunk
 
  sudo /opt/splunk/bin/splunk start --accept-license --answer-yes --auto-ports --no-prompt --seed-passwd $PASSWORD
  sudo /opt/splunk/bin/splunk stop -auth admin:$PASSWORD
- sudo chown -R archStudent:archStudent /opt/splunk
- sudo -u archStudent /opt/splunk/bin/splunk restart
- sudo /opt/splunk/bin/splunk enable boot-start -user archStudent
+ sudo chown -R splunk:splunk /opt/splunk
+ sudo -u splunk /opt/splunk/bin/splunk restart
+ sudo /opt/splunk/bin/splunk enable boot-start -user splunk
