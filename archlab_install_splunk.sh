@@ -13,7 +13,7 @@
  sudo tar -xvzf $INSTALL_FILE
  sudo rm -rf $INSTALL_FILE
 
- sudo useradd -m -r splunk
+ #sudo useradd -m -r splunk
 
  sudo /opt/splunk/bin/splunk start --accept-license --answer-yes --auto-ports --no-prompt --seed-passwd $PASSWORD
  sudo /opt/splunk/bin/splunk stop -auth admin:$PASSWORD
