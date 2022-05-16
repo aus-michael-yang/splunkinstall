@@ -1,6 +1,7 @@
 #!/bin/sh 
  
- WGET_CMD="wget -O splunkforwarder-8.2.3-cd0848707637-Linux-x86_64.tgz https://download.splunk.com/products/universalforwarder/releases/8.2.3/linux/splunkforwarder-8.2.3-cd0848707637-Linux-x86_64.tgz"
+ #WGET_CMD="wget -O splunkforwarder-8.2.3-cd0848707637-Linux-x86_64.tgz https://download.splunk.com/products/universalforwarder/releases/8.2.3/linux/splunkforwarder-8.2.3-cd0848707637-Linux-x86_64.tgz"
+ WGET_CMD="wget -O splunkforwarder-8.2.6-a6fe1ee8894b-Linux-x86_64.tgz https://download.splunk.com/products/universalforwarder/releases/8.2.6/linux/splunkforwarder-8.2.6-a6fe1ee8894b-Linux-x86_64.tgz"
  INSTALL_FILE="splunkforwarder-*"
  PASSWORD="ExpertInsight"
 
