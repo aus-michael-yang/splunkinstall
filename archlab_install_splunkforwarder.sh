@@ -17,6 +17,6 @@
  sudo /opt/splunkforwarder/bin/splunk start --accept-license --answer-yes --auto-ports --no-prompt --seed-passwd $PASSWORD
  sudo /opt/splunkforwarder/bin/splunk stop -auth admin:$PASSWORD
  sudo chown -R ubuntu:ubuntu /opt/splunkforwarder
- sudo -u splunk /opt/splunkforwarder/bin/splunk restart
- sudo /opt/splunkforwarder/bin/splunk enable boot-start -user splunk
+ sudo -u ubuntu /opt/splunkforwarder/bin/splunk restart
+ sudo /opt/splunkforwarder/bin/splunk enable boot-start -user ubuntu
  
